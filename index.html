@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/4f46358477.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="float__menu">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">STORE</a></li>
+			<li><a href="#">MY ACCOUNT</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">INFO</a></li>
+		</ul>
+		<div class="socials">
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header class="float">
+		<div class="container">
+			<div class="outer__header">
+				<div class="header__menu">
+					<a href="#">MENU 
+                        <span class="header__bars">
+                        	<span></span>
+                        	<span></span>
+                        	<span></span>
+                        </span>
+					</a>
+				</div>
+				<div class="header__logo">
+						<a href="#"><img src="img/logo.png" alt="logo" class="logo__desktop" ><img src="img/footer-logo.png" alt="logo" class="logo__mobile"></a>
+					</div>
+				<div class="header__cart">
+						<a href="#"><span>CART (x)</span><img src="img/activecart.png" alt="activecart" class="cart__desktop">
+							<img src="img/cart.png" alt="cart" class="cart__mobile">
+						</a>
+					</div>
+			</div>
+		</div>
+	</header>
+	<div class="contact__wrapper">
+		<div class="default__marquee">
+			<ul>
+				<li>ZERO SUGAR</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>150MG CAFFEINE</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN B</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN C</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>40 SERVINGS</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>ZERO SUGAR</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>150MG CAFFEINE</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN B</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN C</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>40 SERVINGS</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+			</ul>
+		</div>
+		<div class="banner__wrapper" style="background:url('img/background.png');">
+			<!-- <img src="img/mobileimage1.webp" alt="mobileimage"> -->
+			<div class="container">
+				<div class="timer__container">
+					<div class="countdown">
+						<span id="hours"></span>
+						<span style="vertical-align: 1.5vw;">:</span>
+						<span id="minute"></span>
+						<span style="vertical-align: 1.5vw;">:</span>
+						<span id="seconds"></span>
+					</div>
+					<div class="offers__description">
+						<p>EXCLUSIVE ITEMS & OFFERS FRI 9PM-SUN 9PM (GMT)</p>
+					</div>
+				</div>
+			</div>
+			<main class="main_wrapper">
+				<div class="container">
+					<section class="product_wrapper">
+						<div class="single_product mobile-second product">
+							<div class="product_img">
+								<img src="img/basket.png" alt="Basket">
+							</div>
+							<div class="product_title">
+								<h5>Shopping Basket</h5>
+								<p>£35 / <span>1 Basket</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">Shop<br>Now</a>
+								</div>
+							</div>
+						</div>
+						<div class="single_product mobile-first product">
+							<div class="product_img">
+								<img src="img/single-tub.png" alt="Single Tub">
+							</div>
+							<div class="product_title">
+								<h5>Space Dust</h5>
+								<p>£30 / <span>1 Tub - 40 Servings</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">More<br>Info</a>
+								</div>
+							</div>
+						</div>
+						<div class="single_product mobile-third">
+							<div class="product_img">
+								<img src="img/socks.png" alt="White Socks">
+							</div>
+							<div class="product_title">
+								<h5>White Socks</h5>
+								<p>£7 / <span>1 Pair</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">Shop<br>Now</a>
+								</div>
+							</div>
+						</div>
+						<div class="single_product with-size-chart mobile-fifth">
+							<div class="product_img">
+								<img src="img/t-shirt.png" alt="Black Tee">
+							</div>
+							<div class="product_title">
+								<h5>Black Tee</h5>
+								<p>£30 / <span>Exclusive</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">Size<br>Guide</a>
+								</div>
+								<div class="size-chart">
+									<p class="not-avaliable"><span>S</span></p>
+									<p><span class="big-space">M</span></p>
+									<p class="not-avaliable"><span>L</span></p>
+									<p>XL</p>
+									<p class="not-avaliable xxl">XXL</p>
+								</div>
+							</div>
+						</div>
+						<div class="single_product mobile-sixth">
+							<div class="product_img">
+								<img src="img/keyrings.png" alt="Keyrings">
+							</div>
+							<div class="product_title">
+								<h5>Space Dust</h5>
+								<p>£1 / <span>Random Colour</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">Shop<br>Now</a>
+								</div>
+							</div>
+						</div>
+						<div class="single_product mobile-fourth">
+							<div class="product_img">
+								<img src="img/tubs.png" alt="Tubs Bundle">
+							</div>
+							<div class="product_title">
+								<h5>3X Bundle</h5>
+								<p>£90 / <span>All 3 Tubs</span></p>
+							</div>
+							<div class="product_control">
+								<div class="quantity">
+									<p>Quantity</p>
+									<div class="select_quantity product">
+										<a href="#" class="plus" onclick="decreaseQuantity(1)">+</a>
+										<input class="quantity1" type="text" value="1" maxlength="2">
+										<a href="#" class="minus"  onclick="increaseQuantity(1)">-</a>
+									</div>
+								</div>
+								<div class="add-to-cart">
+									<button type="submit">Add To Cart</button>
+								</div>
+								<div class="more-info">
+									<a href="#">More<br>Info</a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</main>
+		</div>
+		<div class="default__marquee reverse">
+			<ul>
+				<li>ZERO SUGAR</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>150MG CAFFEINE</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN B</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN C</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>40 SERVINGS</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>ZERO SUGAR</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>150MG CAFFEINE</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN B</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>VITAMIN C</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+				<li>40 SERVINGS</li>
+				<li class="spacer"><img src="img/l.png" alt="light"></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="outer__footer">
+				<div class="footer__left">
+					<a href="#">
+						<img src="img/footer-logo.png" alt="logofoot">
+					</a>
+					<div class="bottom__part">
+						<div class="menu__ul">
+							<ul>
+								<li><a href="#">STORE</a></li>
+								<li><a href="#">LOOKBOOK</a></li>
+								<li><a href="#">INSTAGRAM</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">CONTACT</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">TERMS OF SERVICE</a></li>
+								<li><a href="#">PRIVACY</a></li>
+								<li><a href="#">REFUNDS</a></li>
+								<li><a href="#">RETURNS</a></li>
+							</ul>
+						</div>
+						<div class="socials">
+							<ul>
+								<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					<h2>SIGN UP!</h2>
+					<form action="">
+						<div class="group__input">
+							<input type="text" placeholder="EMAIL">
+						</div>
+						<div class="group__submit">
+							<button type="submit">ENTER</button>
+						</div>
+					</form>
+					<div class="desc__wrapper">
+						<div class="left__desc">
+							<p>TEXT STATING TERMS AND CONDITIONS FOR SIGNING UP YADAYADAYADA</p>
+							<p>ALL RIGHTS RESERVED CHILDISH® LTD ©2023</p>
+						</div>
+						<div class="right__desc">
+							<img src="img/smile.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="menu__ul">
+					<ul>
+						<li><a href="#">STORE</a></li>
+						<li><a href="#">LOOKBOOK</a></li>
+						<li><a href="#">INSTAGRAM</a></li>
+						<li><a href="#">FAQs</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">TERMS OF SERVICE</a></li>
+						<li><a href="#">PRIVACY</a></li>
+						<li><a href="#">REFUNDS</a></li>
+						<li><a href="#">RETURNS</a></li>
+					</ul>
+				</div>
+				<div style="order: 5;" class="footer__rights__desc"><p style="color: #ffffff; font-family: HelveticaMd; font-weight: 500;">ALL RIGHTS RESERVED CHILDISH® LTD ©2023</p></div>
+				<hr class="footer__bdr__1" style="border-top: 4px solid #ffffff ; order: 2; width: 100%; margin-block: 5vw;">	
+				<hr class="footer__bdr__1" style="border-top: 4px solid #ffffff ; order: 4; width: 100%; margin-block: 5vw;">	
+			</div>
+		</div>
+	</footer>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script src="js/jquery.webticker.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+		
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+		
+		  // Get today's date and time
+		  var now = new Date().getTime();
+			
+		  // Find the distance between now and the count down date
+		  var distance = countDownDate - now;
+			
+		  // Time calculations for days, hours, minutes and seconds
+		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+			
+		  // Output the result in an element"
+		  if(seconds >= 0 && seconds <=9){
+			  document.getElementById("seconds").innerHTML ='0'+seconds
+		  }else{
+			  document.getElementById("seconds").innerHTML =seconds
+		  }
+		  if(minutes >= 0 && minutes <=9){
+			  document.getElementById("minute").innerHTML ='0'+minutes
+		  }else{
+			  document.getElementById("minute").innerHTML =minutes
+		  }
+		  if(hours >= 0 && hours <=9){
+			  document.getElementById("hours").innerHTML ='0'+hours
+		  }else{
+			  document.getElementById("hours").innerHTML =hours
+		  }
+		  // If the count down is over, write some text 
+		  if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("seconds").innerHTML = "EXPIRED";
+			document.getElementById("minute").innerHTML = "EXPIRED";
+			document.getElementById("hours").innerHTML = "EXPIRED";
+		  }
+		}, 1000);
+		</script>
+		<script>
+			const quantities = {
+			  product1: 0,
+			  product2: 0,
+			  // Add more products here as needed
+			};
+		
+			function updateQuantityDisplay(productId) {
+			  document.getElementById(`quantity${productId}`).textContent = quantities[`product${productId}`];
+			}
+		
+			function increaseQuantity(productId) {
+			  quantities[`product${productId}`]++;
+			  updateQuantityDisplay(productId);
+			}
+		
+			function decreaseQuantity(productId) {
+			  if (quantities[`product${productId}`] > 0) {
+				quantities[`product${productId}`]--;
+				updateQuantityDisplay(productId);
+			  }
+			}
+		  </script>
+</body>
+</html>
